@@ -7,7 +7,6 @@ from django.utils.encoding import force_str
 from debug_toolbar.middleware import _HTML_TYPES
 from debug_toolbar.middleware import DebugToolbarMiddleware as BaseMiddleware
 from debug_toolbar.toolbar import DebugToolbar
-from graphene_django.views import GraphQLView
 
 from .serializers import CallableJSONEncoder
 
